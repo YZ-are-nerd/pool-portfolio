@@ -9,16 +9,18 @@ const MainBlock = () => {
                 <Image src='/logo.svg' className='w-full h-full object-cover' fill alt='logo' />
             </div>
             <div className="w-fit h-fit flex items-center gap-1 p-1 rounded-xl bg-neutral-900">
-                <button className="py-1 px-2 rounded-xl text-md text-neutral-400 bg-neutral-800">Проверка</button>
+                <button className="py-1 px-2 rounded-xl text-sm text-neutral-400 bg-neutral-800">ENG</button>
+                <button className="py-1 px-2 rounded-xl text-sm text-neutral-400 bg-neutral-800">RUS</button>
+                <button className="py-1 px-2 rounded-xl text-sm text-neutral-100 bg-blue-600">Portfolio</button>
+                <button className="py-1 px-2 rounded-xl text-sm text-neutral-400 bg-neutral-800">Projects</button>
             </div>
         </div>
         <div className="w-full h-full flex flex-col">
             <h2 className='text-5xl leading-tight font-semibold text-neutral-300'>
-            I am engaged in frontend development - this is my hobby and my life's work, 
+            I am engaged in frontend development - this is my hobby, my life's work, 
             on which I want to earn. When launching projects, 
             I wanted to release projects under some name, so I came up with a Pool, 
             all the projects that you will see here are released by a Pool.
-                
             </h2>
             <div className="w-fit h-fit flex items-center gap-1">
                 <h2 className='text-5xl leading-tight font-semibold text-neutral-300'>For communication: </h2>
